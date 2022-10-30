@@ -6,7 +6,7 @@ import (
 	"example.com/greetings"
 )
 
-func main(){
+func main() {
 	message := greetings.Hello("Hello world!")
 	fmt.Println(message)
 }
