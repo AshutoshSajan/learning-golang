@@ -3,10 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("hello world!")
-	greet("Jhon")
+	greet("John")
 }
 
-func greet(name) {
+func greet(name string) {
 	fmt.Println("hello " + name)
 }
